@@ -4,7 +4,10 @@
 }
 a {
   text-decoration: none;
+  color: red;
 }
+
+p{margin-bottom: 15px; margin-top:10; font-size: 18px;color: #444;}
 
 .clearfix {
   overflow: auto;
@@ -80,6 +83,10 @@ header .logo h1 {
     font-variant: small-caps;
 }
 
+header .logo p {
+    margin-top:0;
+}
+
 header .socialmedia {
     float: right;
     margin-top: 50px;
@@ -134,4 +141,105 @@ nav ul li a{
 
 nav ul li a:hover{
     color : orange;
+}
+
+div.intro{
+    width: 970px;
+    margin:15px;   
+    margin-bottom: 0;
+}
+
+div.intro div.introimage {
+   
+    float: left;
+   
+}
+
+
+div.intro div.introtext{
+
+    width: 570px;
+    float: right;
+}
+
+div.introtext h1{
+
+    font-weight:normal;
+    margin-top: 100px;
+    font-size:72;
+    text-transform: uppercase;
+}
+
+div.introtext p{
+    margin-top:10px;
+    font-size: 18px;
+
+}
+
+div.introtext a{
+    text-transform: uppercase;
+    float: right;
+
+}
+
+div.homecontent{
+    width:1000px;
+    background: #eee;
+    margin-bottom: 15px;
+    padding-bottom:15px;
+}
+
+div.home-col{
+    margin-left:15;
+    width:313.33px;
+      float: left;
+}
+
+div.home-col img{
+    width:313.33px;
+
+}
+
+div.home-col h2{
+
+    margin: 30px 0 30px 0;
+    font: size 30px;
+    font-weight: normal;
+}
+
+div.services{
+    margin-bottom: 20px;
+}
+
+div.home-col a{
+    float: right;
+}
+
+div.services img{
+    width: 64px;
+    float: left;
+    margin-right: 15px;
+}
+
+div.services p{
+    margin-top:0;
+}
+
+div.quote{
+    float: left;
+}
+
+div.quote i {
+
+    float: left;
+}
+
+div.quote h3{
+    margin: top 20px;
+    margin-left: 15px;
+    float: left;
+}
+
+div.quote p{
+    clear: both;
 }
