@@ -109,3 +109,29 @@ header .socialmedia ul li a:hover{
       
 }
 
+nav{
+    margin-top: 20px;
+    background:#444;
+    background: linear-gradient(#333,#444,#333);
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    margin: 10px 40px 10px 40px ;
+    display: inline-block;
+}
+
+nav ul li a:hover{
+    color : orange;
+}
